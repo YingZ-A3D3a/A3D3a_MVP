@@ -1,5 +1,7 @@
 # A3D3a's MVP (adaMVP)
-This is the official codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers
+This is the official codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers**
+
+## Installation
 
 adaMVP works with Python >= 3.7. Please make sure you have the correct version of Python installed.
 
