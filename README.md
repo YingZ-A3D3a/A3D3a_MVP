@@ -59,7 +59,7 @@ mbg.find_fn_and_pgm(save_directory = output_path,
 - `alpha`: cooperativity factor describing transition between nodes, default=0.1
 
 ### Output files
-Two output files, 'first_neighbors.csv' and 'markov_output.csv' will be saved in the assigned `output_path`. To understand the results, please check the [results_documentation](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/docs/results_documentation.md)
+Two output files, 'first_neighbors.csv' and 'markov_output.csv' will be saved in the assigned directory `output_path`. To understand the results, please check the [results_documentation](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/docs/results_documentation.md)
 
 
 
