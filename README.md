@@ -61,6 +61,11 @@ mbg.find_fn_and_pgm(save_directory = output_path,
 ### Output files
 Two output files, 'first_neighbors.csv' and 'markov_output.csv' will be saved in the assigned directory `output_path`. To understand the results, please check the [results_documentation](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/docs/results_documentation.md)
 
+### Tutorial 
+The tutorial for running the adaMVP pipeline can be found at 
+
+[build graph and community detection](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/tutorial/graph_modeling_and_community_detection.ipynb)
+
 
 
 
