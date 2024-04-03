@@ -6,10 +6,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 def adj_mat():
-    # current_directory = os.getcwd()
-    # parent_directory = os.path.abspath(os.path.join(current_directory, os.pardir))
-    # dir0 = os.path.join(parent_directory,'adaMVP','other_files')
-    # interactome = os.path.join(dir0, 'unique_interactome_CanSAR_KEGG_Hi_union_012423.txt')
+    # interactome = os.path.join(dir0, 'unique_interactome_CanSAR_KEGG_Hi_union_021524.txt')
     ### load interactome
     interactome = os.path.join(os.path.dirname(__file__), 'data', 'unique_interactome_CanSAR_KEGG_Hi_union_012423.txt')
     interacts = pd.read_csv(interactome, sep = '\t')
