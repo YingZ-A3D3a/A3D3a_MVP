@@ -42,10 +42,10 @@ mbg.find_fn_and_pgm(save_directory = output_path,
             n_perm = 1000)
 ```
 ### Parameters (mandatory)
-- `save_directory`: directory path for saving output files
 - `altered_freq_file`: input file with altered freq for each gene in a csv file
   
 ### Optional Parameters
+- `save_directory`: directory path for saving output files
 - `to_remove`: Genes to be filtered from the seed genes, default=[]
 - `threshold`: Threshold of FDR for the permutation test for finding first neighbors of the seed genes, default=0.05
 - `fn_num`: Maximum number of first neighbors to be brought into the network, sorted by the FDR and number of neighbors in the seeds, default=550
