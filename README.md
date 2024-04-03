@@ -15,12 +15,12 @@ adaMVP works with Python >= 3.8. Please make sure you have the correct version o
 
 We highly recommend using an isolated python environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or [virtualenv](https://docs.python.org/3/library/venv.html).
 1. Create python>=3.8 environment
-   - Using conda: `conda create -n adaMVP python=3.8`
-   - Using virtualenv: `python -m venv adaMVP`
+   - Using conda: `conda create -n ada_mvp python=3.8`
+   - Using virtualenv: `python -m venv ada_mvp`
 
 2. Activate environment
-   - Using conda: `conda activate adaMVP`
-   - Using virtualenv: `source adaMVP/bin/activate`
+   - Using conda: `conda activate ada_mvp`
+   - Using virtualenv: `source ada_mvp/bin/activate`
 
 After setting the environment, you could install adaMVP via pip:
 
@@ -30,7 +30,7 @@ pip install adaMVP
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
-This csv file must include two columns names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv)
+This csv file must include two column names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv)
 
 ## Run examples
 #### Find first neighbors and build MVP model for prioritizing molecular vulerabilities
