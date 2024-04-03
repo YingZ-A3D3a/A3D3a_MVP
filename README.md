@@ -3,8 +3,11 @@
 # A3D3a's MVP (adaMVP)
 This is the official codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers.**
 
-## What is A3D3a's MVP (adaMVP)?
+## What is A3D3a's MVP?
 A3D3a’s MVP (Adaptive AI-Augmented Drug Discovery and Development Molecular Vulnerability Picker) is a novel graph-based, cooperativity-led Markov chain model. The algorithm exploits cooperativity of weak signals within a cancer molecular network to enhance the signal of true molecular vulnerabilities. 
+
+## Workflow of A3D3a's MVP
+![workflow](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/docs/workflow.png)
 
 ## Installation
 
