@@ -9,7 +9,7 @@ A3D3a’s MVP (Adaptive AI-Augmented Drug Discovery and Development Molecular Vu
 adaMVP works with Python >= 3.8. Please make sure you have the correct version of Python installed pre-installation.
 
 We highly recommend using an isolated python environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or [virtualenv](https://docs.python.org/3/library/venv.html).
-1. Create python=>3.8 environment
+1. Create python>=3.8 environment
    - Using conda: `conda create -n adaMVP python=3.8`
    - Using virtualenv: `python -m venv adaMVP`
 
