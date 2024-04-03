@@ -27,7 +27,7 @@ pip install adaMVP
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
-This csv file must include two columns names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with HGNC symbols, and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv)
+This csv file must include two columns names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv)
 
 ## Run examples
 #### Find first neighbors and build MVP model for prioritizing molecular vulerabilities
