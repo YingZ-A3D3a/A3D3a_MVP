@@ -1,0 +1,29 @@
+[project]
+name='adaMVP'
+version = "1.0.4"
+authors = [
+  { name="Ying Zhu", email="yzhu16@mdanderson.org" },
+]
+description = "Adaptive AI-Augmented Drug Discovery and Development Molecular Vulnerability Picker"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  'numpy>1.21',
+  'pandas>1.4',
+  'matplotlib>3.5',
+  'networkx>2.7',
+  'tqdm',
+  'statsmodels>0.13',
+  'seaborn>0.11'
+]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+"adaMVP.data" = ["*.txt"]
+[project.urls]
+Homepage = "https://github.com/YingZ-A3D3a/A3D3a_MVP"
