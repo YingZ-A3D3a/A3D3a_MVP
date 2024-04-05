@@ -36,7 +36,7 @@ pip install adaMVP
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
-This csv file must include two column names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv)
+This csv file must include two column names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv). The recommended length of seed genes are between 50-200. For the data from multiple modalities, e.g. mutation, CNV, RNA, the 'Freq' can be set as the maximum altered frequency across modalities. Please read the method part of the manuscript for detailed explanations.
 
 ## Run examples
 #### Find first neighbors and build MVP model for prioritizing molecular vulerabilities
@@ -53,7 +53,7 @@ mbg.find_fn_and_pgm(save_directory = output_path,
             n_perm = 1000)
 ```
 ### Parameters (mandatory)
-- `altered_freq_file`: input file with altered freq for each gene in a csv file
+- `altered_freq_file`: input file with altered freq for each gene in a csv file.
   
 ### Optional Parameters
 - `save_directory`: directory path for saving output files
