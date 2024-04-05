@@ -29,9 +29,9 @@ pip install adaMVP
 ```
 
 4. (optional) Setup jupyter lab
-- Install the ipython kernel: `pip install -U ipykernel`.
+- Install the ipython kernel: `pip install -U ipykernel`
 - Install jupyter lab: `pip install jupyterlab`
-- Introduce the virtual environment to jupyter: `python -m ipykernel install --user --name 'ada_mvp'`.
+- Introduce the virtual environment to jupyter: `python -m ipykernel install --user --name 'ada_mvp'`
 - Open/Start Jupyter by typing `jupyter lab` and select the created kernel `ada_mvp`.
 
 ## Preparing INPUTS
