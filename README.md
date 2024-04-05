@@ -22,11 +22,17 @@ We highly recommend using an isolated python environment using [conda](https://d
    - Using conda: `conda activate ada_mvp`
    - Using virtualenv: `source ada_mvp/bin/activate`
 
-After setting the environment, you could install adaMVP via pip:
+3. After setting the environment, you could install adaMVP via pip:
 
 ```bash
 pip install adaMVP
 ```
+
+4. (optional) Setup jupyter lab
+- Install the ipython kernel: `pip install -U ipykernel`.
+- Install jupyter lab: `pip install jupyterlab`
+- Introduce the virtual environment to jupyter: `python -m ipykernel install --user --name 'ada_mvp'`.
+- Open/Start Jupyter by typing `jupyter lab` and select the created kernel `ada_mvp`.
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
