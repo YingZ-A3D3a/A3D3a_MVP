@@ -61,10 +61,10 @@ mbg.find_fn_and_pgm(save_directory = output_path,
 - `save_directory`: directory path for saving output files
 - `to_remove`: Genes to be filtered from the seed genes, default=[]
 - `threshold`: Threshold of FDR for the permutation test for finding first neighbors of the seed genes, default=0.05
-- `fn_num`: Maximum number of first neighbors to be brought into the network, sorted by the FDR and number of neighbors in the seeds, default=550
+- `fn_num`: Maximum number of first neighbors to be brought into the network, sorted by the FDR and number of neighbors in the seeds, default=550, recommended range: 200-600
 - `n_perm`: Number of iterations for the permutation test, default=10000
-- `Wm`: weight parameter on the self-loop of nodes of the Markov chain model, default=0.5
-- `alpha`: cooperativity factor describing transition between nodes, default=0.1
+- `Wm`: weight parameter on the self-loop of nodes of the Markov chain model, default=0.5, recommended range: 0.3-0.7
+- `alpha`: cooperativity factor describing transition between nodes, default=0.1, recommended range: 0-0.2
 
 ### Output files
 Two output files, 'first_neighbors.csv' and 'markov_output.csv' will be saved in the assigned directory `output_path`. To understand the results, please check the [results_documentation](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/docs/results_documentation.md)
