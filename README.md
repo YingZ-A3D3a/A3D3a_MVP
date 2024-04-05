@@ -32,7 +32,7 @@ pip install adaMVP
 - Install the ipython kernel: `pip install -U ipykernel`
 - Install jupyter lab: `pip install jupyterlab`
 - Introduce the virtual environment to jupyter: `python -m ipykernel install --user --name 'ada_mvp'`
-- Open/Start Jupyter by typing `jupyter lab` and select the created kernel `ada_mvp`.
+- Open/Start Jupyter by typing `jupyter lab` and select the created kernel `ada_mvp`
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
