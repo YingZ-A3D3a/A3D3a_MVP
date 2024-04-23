@@ -9,8 +9,8 @@ from adaMVP import sig_first_neighbors as sfn
 from adaMVP import graphical_models as gms
 from adaMVP import markov_model_dataframe as mmd # degree of genes in the graph
 
-def find_fn_and_pgm(save_directory,
-            altered_freq_file,
+def find_fn_and_pgm(altered_freq_file,
+            save_directory = '.',
             to_remove = [],
             fn_num = 550,thre = 0.05,Wm = 0.5,alpha = 0.1,n_perm = 10000):
     """
