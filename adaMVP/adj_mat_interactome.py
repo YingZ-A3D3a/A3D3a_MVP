@@ -6,14 +6,13 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 def adj_mat():
-    # interactome = os.path.join(dir0, 'unique_interactome_CanSAR_KEGG_Hi_union_021524.txt')
     ### load interactome
-    interactome = os.path.join(os.path.dirname(__file__), 'data', 'unique_interactome_CanSAR_KEGG_Hi_union_012423.txt')
+    interactome = os.path.join(os.path.dirname(__file__), 'data', 'unique_interactome_CanSAR_KEGG_Hi_union_021524.txt')
     interacts = pd.read_csv(interactome, sep = '\t')
 
     # get the edges
     edges = []
-    for i in range(len(interacts)):
+    for i in range(len(interacts))a:
         edges.append(tuple(interacts.iloc[i,:].values.tolist()))
     # print(f"number of edges: {len(edges)}")
 
