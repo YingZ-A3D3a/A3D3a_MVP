@@ -12,7 +12,7 @@ def adj_mat():
 
     # get the edges
     edges = []
-    for i in range(len(interacts))a:
+    for i in range(len(interacts)):
         edges.append(tuple(interacts.iloc[i,:].values.tolist()))
     # print(f"number of edges: {len(edges)}")
 
